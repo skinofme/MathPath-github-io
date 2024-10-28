@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Programación</title>
+</head>
+<body>
+    <header>
+        <h1>Conceptos Fundamentales de Programación y Computación</h1>
+    </header>
+    <main>
+        <!-- Botones de navegación a cada sección -->
+        <nav>
+            <a href="#lenguajesProgramacion"><button>Lenguajes de programación</button></a>
+            <a href="#automatasFinitos"><button>Autómatas Finitos</button></a>
+        </nav>
+
+        <!-- Sección: Lenguajes de Programación -->
+        <section id="lenguajesProgramacion">
+            <h2>Lenguajes de Programación</h2>
+            <p>Los lenguajes de programación son herramientas que permiten a los desarrolladores comunicar instrucciones a una computadora. Cada lenguaje tiene su propia sintaxis y semántica, adaptándose a distintos tipos de tareas o plataformas. A continuación, se exploran diferentes tipos de lenguajes de programación y paradigmas utilizados en desarrollo de software.</p>
+
+            <!-- Subtema: Lenguajes de Programación de Alto Nivel -->
+            <h3>Lenguajes de Programación de Alto Nivel</h3>
+            <p>Los lenguajes de programación de alto nivel son aquellos que están diseñados para ser comprensibles para los humanos. A diferencia de los lenguajes de bajo nivel, estos lenguajes no interactúan directamente con el hardware, sino que dependen de un compilador o intérprete para traducir el código en instrucciones de máquina. Ejemplos populares de lenguajes de alto nivel incluyen Python, Java, C++, y JavaScript.</p>
+            <p>Estos lenguajes permiten una sintaxis más intuitiva, lo cual facilita la escritura y lectura del código. Además, proporcionan abstracciones avanzadas como variables, bucles, funciones y estructuras de datos complejas. Esto hace que el desarrollo de aplicaciones complejas sea más eficiente, aunque a veces a costa de un menor control sobre los recursos de hardware.</p>
+
+            <!-- Subtema: Lenguajes de Programación de Bajo Nivel -->
+            <h3>Lenguajes de Programación de Bajo Nivel</h3>
+            <p>Los lenguajes de bajo nivel están más cercanos al lenguaje de máquina, lo cual permite una interacción directa con el hardware del sistema. Estos lenguajes, como el ensamblador, requieren que el programador tenga conocimientos detallados sobre la arquitectura del hardware para escribir programas eficientes.</p>
+            <p>Un aspecto clave de los lenguajes de bajo nivel es su eficiencia y control sobre los recursos del sistema, como la memoria y la CPU. Esto los hace ideales para sistemas embebidos, controladores y otros entornos donde el rendimiento es crucial. Sin embargo, la programación en lenguajes de bajo nivel suele ser más compleja y propensa a errores.</p>
+
+            <!-- Subtema: Lenguajes de Programación Declarativos -->
+            <h3>Lenguajes de Programación Declarativos</h3>
+            <p>Los lenguajes declarativos permiten a los programadores especificar qué resultado desean obtener sin detallar los pasos necesarios para alcanzarlo. Un ejemplo común de lenguaje declarativo es SQL, que se utiliza para consultar bases de datos y permite especificar qué datos se desean obtener sin definir cómo hacerlo internamente.</p>
+            <p>Otro ejemplo son los lenguajes de programación funcionales como Haskell, donde los desarrolladores se centran en el "qué" en lugar del "cómo". Esto facilita el desarrollo de aplicaciones en las que el flujo lógico es más importante que los detalles de implementación, como en procesamiento de datos o aplicaciones matemáticas.</p>
+
+            <!-- Subtema: Lenguajes de Programación Imperativos -->
+            <h3>Lenguajes de Programación Imperativos</h3>
+            <p>Los lenguajes imperativos especifican una secuencia de instrucciones que la computadora debe seguir para lograr un resultado. Estos lenguajes requieren que el programador detalle paso a paso cómo debe realizarse una tarea, lo cual se refleja en estructuras como bucles, condiciones y asignaciones.</p>
+            <p>Ejemplos de lenguajes imperativos incluyen C, Java y Python. Estos lenguajes se usan ampliamente debido a su flexibilidad y capacidad para realizar tareas complejas, ya que permiten un control explícito sobre el flujo del programa.</p>
+
+            <!-- Subtema: Lenguajes de Programación Orientados al Problema -->
+            <h3>Lenguajes de Programación Orientados al Problema</h3>
+            <p>Los lenguajes de programación orientados al problema están diseñados específicamente para resolver problemas en un dominio particular. Estos lenguajes se enfocan en abstraer las operaciones y los conceptos directamente relacionados con un área específica, como el procesamiento de datos, la manipulación de gráficos o el desarrollo web.</p>
+            <p>Ejemplos de este tipo de lenguajes incluyen MATLAB, que se usa principalmente en ingeniería y matemáticas, y R, que se utiliza para el análisis de datos y estadística. Estos lenguajes suelen ofrecer bibliotecas y funciones específicas para el área, lo que facilita la programación y la solución de problemas en esos campos.</p>
+
+            <!-- Subtema: Lenguajes de Programación Orientados a Objetos -->
+            <h3>Lenguajes de Programación Orientados a Objetos</h3>
+            <p>La programación orientada a objetos (POO) es un paradigma en el que los programas se estructuran en "objetos", que son instancias de "clases". Una clase define las propiedades y comportamientos que sus objetos tendrán. Este enfoque facilita la reutilización de código, la modularidad y la organización de programas complejos.</p>
+            <p>Lenguajes como Java, C++ y Python permiten la creación de objetos, que encapsulan tanto datos como funciones. La POO es especialmente útil en aplicaciones complejas y grandes, ya que permite representar entidades del mundo real y sus relaciones de forma intuitiva, fomentando un código más mantenible y escalable.</p>
+        </section>
+
+        <!-- Sección: Autómatas Finitos -->
+        <section id="automatasFinitos">
+            <h2>Autómatas Finitos</h2>
+            <p>Un autómata finito es un modelo matemático que define una máquina con un conjunto limitado de estados. Esta máquina puede cambiar de estado en respuesta a ciertos estímulos o entradas. Los autómatas finitos son una herramienta fundamental en la teoría de la computación y son utilizados para modelar y analizar sistemas de control y lenguajes formales.</p>
+            <p>Existen dos tipos principales de autómatas finitos: deterministas (DFA) y no deterministas (NFA). En un DFA, cada estado tiene una única transición definida para cada símbolo de entrada posible, lo que hace que el autómata sea predecible. En un NFA, un estado puede tener múltiples transiciones para el mismo símbolo, lo que permite una mayor flexibilidad en la aceptación de cadenas, aunque no siempre es tan eficiente como un DFA.</p>
+            <p>Los autómatas finitos se aplican en diversas áreas, como el diseño de circuitos digitales, la validación de expresiones regulares, y la construcción de compiladores. También son útiles en el procesamiento de texto, ya que permiten validar patrones específicos y analizar la estructura de cadenas de caracteres.</p>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafos</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>GRAFOS</h1>
+    </header>
+    <main>
+        <!-- Botones con enlaces a cada sección de contenido -->
+        <nav>
+            <a href="#isomorfismo"><button>Isomorfismo de grafos</button></a>
+            <a href="#arboles"><button>Árboles</button></a>
+            <a href="#arbolesModelos"><button>Árboles como modelos</button></a>
+            <a href="#arbolBBPolaca"><button>ÁRBOL BB</button></a>
+        </nav>
+
+        <!-- Contenido de cada tema -->
+        <section id="isomorfismo">
+            <h2>Isomorfismo de Grafos</h2>
+            <p>El <strong>isomorfismo de grafos</strong> es una propiedad que indica si dos grafos son estructuralmente equivalentes, aunque puedan diferir en la disposición visual de sus nodos o etiquetas. Dos grafos son isomorfos si existe una correspondencia entre sus conjuntos de vértices y aristas, que preserva la estructura de conexiones.</p>
+            <p>Formalmente, se dice que dos grafos <em>G</em> y <em>H</em> son isomorfos si existe una función biyectiva <code>f</code> tal que para cada arista entre dos vértices en <em>G</em>, existe una arista correspondiente en <em>H</em> entre los vértices equivalentes bajo <code>f</code>. Esta propiedad permite estudiar grafos en términos de su estructura sin importar la disposición específica de sus vértices.</p>
+            <p>El isomorfismo de grafos tiene aplicaciones en áreas como química (comparación de moléculas), informática (optimización de redes) y teoría de la computación, donde puede ayudar en la verificación de estructuras de datos complejas.</p>
+        </section>
+        
+        <section id="arboles">
+            <h2>Árboles</h2>
+            <p>Un <strong>árbol</strong> es un tipo especial de grafo que es acíclico y está conectado, lo que significa que cualquier par de vértices está conectado por un único camino. Los árboles son una subcategoría de grafos y cumplen con las siguientes propiedades importantes:</p>
+            <ul>
+                <li>Un árbol con <em>n</em> nodos siempre tiene <em>n - 1</em> aristas.</li>
+                <li>Todos los árboles son grafos acíclicos, es decir, no contienen ciclos.</li>
+                <li>Los árboles son estructuras jerárquicas y se representan comúnmente con un nodo raíz, del cual "cuelgan" otros nodos en niveles sucesivos.</li>
+            </ul>
+            <p>Los árboles tienen múltiples aplicaciones en informática y matemáticas. Son fundamentales en la construcción de estructuras de datos como árboles binarios y árboles de búsqueda, que permiten realizar búsquedas eficientes, almacenar datos de forma ordenada, y modelar estructuras como archivos en sistemas operativos.</p>
+        </section>
+        
+        <section id="arbolesModelos">
+            <h2>Árboles como Modelos</h2>
+            <p>En múltiples disciplinas, los árboles se utilizan para modelar relaciones jerárquicas y estructuras organizacionales. Debido a su naturaleza acíclica y conectada, son adecuados para representar situaciones en las que una entidad se divide en subentidades sin crear ciclos.</p>
+            <p>Algunas de las aplicaciones más comunes de los árboles como modelos incluyen:</p>
+            <ul>
+                <li><strong>Biología:</strong> Los árboles filogenéticos representan la relación evolutiva entre diferentes especies, mostrando la ancestralidad común y la divergencia de linajes.</li>
+                <li><strong>Organización de empresas:</strong> En las jerarquías corporativas, los árboles representan la relación entre distintos niveles de autoridad y departamentos.</li>
+                <li><strong>Clasificación de datos:</strong> En inteligencia artificial y minería de datos, los árboles de decisión permiten clasificar datos y tomar decisiones basadas en características observadas.</li>
+            </ul>
+            <p>Modelar con árboles facilita la visualización de estructuras complejas, el análisis de relaciones y la toma de decisiones en sistemas que requieren un enfoque jerárquico.</p>
+        </section>
+        
+        <section id="arbolBBPolaca">
+            <h2>Árbol BB y Notación Polaca</h2>
+            <p>Un <strong>árbol de búsqueda binaria (ABB o árbol BB)</strong> es una estructura de datos en la que cada nodo tiene a lo sumo dos hijos: uno izquierdo y uno derecho. En un árbol de búsqueda binaria, los nodos están organizados de tal manera que:</p>
+            <ul>
+                <li>El valor de cada nodo es mayor que los valores en su subárbol izquierdo.</li>
+                <li>El valor de cada nodo es menor que los valores en su subárbol derecho.</li>
+            </ul>
+            <p>Los árboles BB permiten realizar búsquedas, inserciones y eliminaciones de manera eficiente, con un rendimiento promedio de <em>O(log n)</em>, lo que los hace ideales para aplicaciones de bases de datos y sistemas de archivos.</p>
+            <p>La <strong>notación polaca</strong>, también conocida como notación prefija, es una forma de escribir expresiones aritméticas o lógicas sin paréntesis, lo cual simplifica la evaluación de expresiones en computación. En notación polaca, los operadores preceden a sus operandos; por ejemplo, la expresión <code>(3 + 4) * 5</code> en notación polaca sería <code>* + 3 4 5</code>.</p>
+            <p>Un tipo especial, la <strong>notación polaca inversa</strong> (o postfija), donde los operadores van al final, es utilizada en algunos lenguajes de programación y calculadoras, ya que permite una evaluación más sencilla utilizando una pila de valores.</p>
+        </section>
+    </main>
+</body>
+</html>

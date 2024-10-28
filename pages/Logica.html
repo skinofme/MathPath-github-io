@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>La lógica</h1>
+    </header>
+    <main>
+        <!-- Botones que enlazan a cada sección de contenido -->
+        <nav>
+            <a href="#equivalencias"><button>Equivalencias Lógicas</button></a>
+            <a href="#conjuntos"><button>Conjuntos</button></a>
+            <a href="#enterosDivision"><button>Enteros y División</button></a>
+            <a href="#tablasVerdad"><button>Tablas de Verdad</button></a>
+        </nav>
+
+        <!-- Sección de contenido: Equivalencias Lógicas -->
+        <section id="equivalencias">
+            <ah></a>
+            <h2>Equivalencias Lógicas</h2>
+            <p>Las equivalencias lógicas son reglas fundamentales en lógica proposicional y lógica de predicados que permiten simplificar o transformar expresiones lógicas sin cambiar su valor de verdad. Estas equivalencias son especialmente útiles para el razonamiento matemático y para el diseño de circuitos lógicos en ingeniería.</p>
+            <p>Entre las equivalencias más importantes se encuentran:</p>
+            <ul>
+                <li><strong>Ley de identidad:</strong> <code>A ∨ falso ≡ A</code> y <code>A ∧ verdadero ≡ A</code>. Estas leyes afirman que cualquier proposición o bien se mantiene igual cuando se combina con falso mediante <code>∨</code>, o con verdadero mediante <code>∧</code>.</li>
+                <li><strong>Ley de la negación:</strong> <code>A ∨ ¬A ≡ verdadero</code> y <code>A ∧ ¬A ≡ falso</code>. Estas expresiones representan el principio de no contradicción y de exclusión.</li>
+                <li><strong>Ley de doble negación:</strong> <code>¬(¬A) ≡ A</code>. Esta ley establece que negar una proposición dos veces es equivalente a la proposición original.</li>
+                <li><strong>Leyes de De Morgan:</strong> <code>¬(A ∧ B) ≡ ¬A ∨ ¬B</code> y <code>¬(A ∨ B) ≡ ¬A ∧ ¬B</code>. Estas leyes permiten distribuir la negación en expresiones con conjunciones y disyunciones.</li>
+            </ul>
+            <p>Estas y otras reglas son esenciales para simplificar circuitos, resolver ecuaciones lógicas y analizar expresiones complejas en lógica.</p>
+        </section>
+
+        <!-- Sección de contenido: Conjuntos -->
+        <section id="conjuntos">
+            <h2>Conjuntos</h2>
+            <p>Un conjunto es una colección bien definida de elementos, que pueden ser números, letras, u objetos abstractos. La teoría de conjuntos es una rama fundamental de las matemáticas y sirve como base para otros conceptos matemáticos y de lógica.</p>
+            <p>Algunas operaciones importantes en teoría de conjuntos son:</p>
+            <ul>
+                <li><strong>Unión (∪):</strong> La unión de dos conjuntos A y B es el conjunto que contiene todos los elementos que están en A, en B, o en ambos.</li>
+                <li><strong>Intersección (∩):</strong> La intersección de A y B es el conjunto de elementos que están en ambos conjuntos.</li>
+                <li><strong>Diferencia (−):</strong> La diferencia entre A y B es el conjunto de elementos que están en A pero no en B.</li>
+                <li><strong>Complemento:</strong> El complemento de un conjunto A incluye todos los elementos que no están en A, usualmente dentro de un "universo" específico de posibles elementos.</li>
+                <li><strong>Conjunto Potencia:</strong> El conjunto potencia de A es el conjunto de todos los subconjuntos posibles de A.</li>
+            </ul>
+            <p>El concepto de conjunto y sus operaciones son fundamentales en lógica, teoría de la computación y programación, ya que permiten manejar datos de manera estructurada y establecer relaciones lógicas entre elementos.</p>
+        </section>
+
+        <!-- Sección de contenido: Enteros y División -->
+        <section id="enterosDivision">
+            <h2>Enteros y División</h2>
+            <p>Los números enteros son aquellos que no tienen parte decimal, y pueden ser positivos, negativos o cero. Dentro de los enteros, la división desempeña un papel fundamental, especialmente en la teoría de números.</p>
+            <p>En la división entre enteros, el concepto de <strong>residuo</strong> es importante. Cuando un entero A se divide por otro B, se puede expresar la división como:</p>
+            <p><code>A = B * Q + R</code>, donde Q es el <strong>cociente</strong> y R es el <strong>residuo</strong> tal que <code>0 ≤ R &lt; B</code>.</p>
+            <p>Las propiedades de divisibilidad, que indican cuándo un número es divisible por otro, son fundamentales. Por ejemplo:</p>
+            <ul>
+                <li>Un número es divisible por 2 si su último dígito es par.</li>
+                <li>Es divisible por 3 si la suma de sus dígitos es múltiplo de 3.</li>
+                <li>Es divisible por 5 si termina en 0 o 5.</li>
+            </ul>
+            <p>La divisibilidad tiene aplicaciones en criptografía, algoritmos y en la resolución de problemas aritméticos complejos.</p>
+        </section>
+
+        <!-- Sección de contenido: Tablas de Verdad -->
+        <section id="tablasVerdad">
+            <h2>Tablas de Verdad</h2>
+            <p>Las tablas de verdad son herramientas esenciales para evaluar expresiones lógicas y comprobar el comportamiento de funciones booleanas. Una tabla de verdad muestra todos los posibles valores de verdad de una expresión lógica para cada combinación de entradas.</p>
+            <p>Para una expresión simple como <code>A ∧ B</code> (AND), la tabla de verdad sería:</p>
+            <table>
+                <tr><th>A</th><th>B</th><th>A ∧ B</th></tr>
+                <tr><td>V</td><td>V</td><td>V</td></tr>
+                <tr><td>V</td><td>F</td><td>F</td></tr>
+                <tr><td>F</td><td>V</td><td>F</td></tr>
+                <tr><td>F</td><td>F</td><td>F</td></tr>
+            </table>
+            <p>Las tablas de verdad son útiles para analizar los resultados de expresiones más complejas, como:</p>
+            <ul>
+                <li>Expresiones compuestas con operadores <code>AND</code>, <code>OR</code>, y <code>NOT</code>.</li>
+                <li>Evaluación de implicaciones y equivalencias lógicas.</li>
+                <li>Verificación de propiedades lógicas y simplificación de circuitos booleanos.</li>
+            </ul>
+            <p>Las tablas de verdad también son utilizadas en el diseño de circuitos lógicos, programación y en lógica proposicional para verificar la validez de argumentos lógicos.</p>
+        </section>
+    </main>
+</body>
+</html>
