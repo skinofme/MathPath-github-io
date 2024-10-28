@@ -1,0 +1,51 @@
+
+html{
+    zoom: 1.7;
+}
+body {
+    font-family: arial, sans-serif;
+    color:rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    background-color: #000000e7;
+    background-size: cover;
+    text-align: justify;
+    background-repeat: no-repeat;
+}
+header{
+    color: #000000;
+    background-color: #000000;
+    padding: 0.5%;
+    background-image: url('recursos/ff.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    color:#ffffff;
+    background-color:#000000e0;
+    padding:0.5%;
+    
+}
+button{
+    padding:5px 20px;
+    background-color:#22285e;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.5s;  
+   }
+   button:hover{
+    background-color: #5f7fbbec;
+    color: rgb(0, 0, 0);
+   }
+
+   h1{
+    color: rgb(255, 255, 255);
+    font-family:monospace;
+   }
+
+   h2{
+    color:#96a1f3
+   }
