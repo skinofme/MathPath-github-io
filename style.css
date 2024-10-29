@@ -1,5 +1,3 @@
-
-
 body {
     font-family: arial, sans-serif;
     color:rgb(0, 0, 0);
@@ -11,8 +9,8 @@ body {
     background-repeat: no-repeat;
 }
 header{
-    color: #000000;
-    background-color: #000000;
+    color: #ffffff;
+    font-family:monospace;
     padding: 0.5%;
     background-image: url('recursos/ff.jpg');
     background-repeat: no-repeat;
@@ -38,12 +36,6 @@ button{
     background-color: #5f7fbbec;
     color: rgb(0, 0, 0);
    }
-
-   h1{
-    color: rgb(255, 255, 255);
-    font-family:monospace;
-   }
-
    h2{
     color:#96a1f3
    }
