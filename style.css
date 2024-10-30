@@ -47,3 +47,18 @@ button{
    h2{
     color:#96a1f3
    }
+   h3{
+    color:rgb(164, 218, 245);
+   }
+   #tablasVerdad,#enterosDivision,#conjuntos,#equivalencias,#arbolBBPolaca,#arbolesModelos,#arboles,#isomorfismo,#lenguajesProgramacion,#automatasFinitos{
+    scroll-margin-top:120px;
+   }
+#space{
+    padding: 100px;
+}
+footer{
+    padding: 10px;
+    background-color:rgb(3, 31, 38);
+    color:white;
+    text-align:center;
+}
