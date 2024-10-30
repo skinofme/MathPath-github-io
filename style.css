@@ -9,14 +9,22 @@ body {
     background-repeat: no-repeat;
 }
 header{
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
     color: #ffffff;
     font-family:monospace;
     padding: 0.5%;
     background-image: url('recursos/ff.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 main{
+    margin-top: 100px;
     color:#ffffff;
     background-color:#000000e0;
     padding:0.5%;
